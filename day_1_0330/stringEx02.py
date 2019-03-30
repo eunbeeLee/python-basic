@@ -23,3 +23,13 @@ print('문자삽입: ', '~'.join(var))
 quiz = "Time is too fast."
 index = quiz.find("too")
 print("too : ", quiz[index:index+len("too")])
+
+# Pithon을 Python으로 바꾸기
+# 방법1. 데이터 전체 바꾸기
+# 방법 2. replace 함수 사용
+a = "Pithon"
+a = a.replace("i", "y")
+print(a)
+
+print("a[1]: ", a[1])
+# a[1] = "y" 상수라서 변경 안됨
